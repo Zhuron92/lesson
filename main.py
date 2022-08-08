@@ -1,6 +1,6 @@
 import telebot
 from telebot.types import Message
-from config import token
+from lesson.config import token
 
 bot = telebot.TeleBot(token)
 @bot.message_handler()
